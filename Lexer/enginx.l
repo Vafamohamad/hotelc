@@ -70,5 +70,3 @@ static void increment_line_number(void)
 <STRING_LITERAL_STATE>\\n       enginx_add_string_literal('\n');
 <STRING_LITERAL_STATE>\\t       enginx_add_string_literal('\t');
 <STRING_LITERAL_STATE>\\\\      enginx_add_string_literal('\\');
-<STRING_LITERAL_STATE>.         enginx_add_string_literal(enginxtext[0]);
-%%
